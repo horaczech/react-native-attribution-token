@@ -2,6 +2,9 @@
 
 React Native module for fetching attribution token on iOS
 
+## Requirements
+- AdServices
+
 ## Installation
 
 ```sh
@@ -12,12 +15,26 @@ npm install react-native-attribution-token
 
 
 ```js
-import { multiply } from 'react-native-attribution-token';
+import { getAttributionToken } from 'react-native-attribution-token';
 
 // ...
 
-const result = await multiply(3, 7);
+const getToken = async () => {
+  try {
+    const token = await getAttributionToken();
+    console.log(token);
+  } catch (error) {
+    console.log(error);
+  }
+};
 ```
+
+## Documentation
+
+#### getAttributionToken()
+Fetches the attribution token from the AdServices framework on iOS. Returns a promise that resolves to the attribution token.
+
+On Android, this method will return a promise that resolves to null.
 
 
 ## Contributing

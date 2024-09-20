@@ -1,14 +1,15 @@
+//
+//  AttributionToken.mm
+//  AttributionToken
+//
+//  Created by Petr Horacek on 19.09.2024.
+//
+
 #import <React/RCTBridgeModule.h>
 
 @interface RCT_EXTERN_MODULE(AttributionToken, NSObject)
 
-RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
-                 withResolver:(RCTPromiseResolveBlock)resolve
-                 withRejecter:(RCTPromiseRejectBlock)reject)
-
-+ (BOOL)requiresMainQueueSetup
-{
-  return NO;
-}
+RCT_EXTERN_METHOD(getAttributionToken:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject)
 
 @end

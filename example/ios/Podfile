@@ -23,10 +23,7 @@ target 'AttributionTokenExample' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'AttributionTokenExampleTests' do
-    inherit! :complete
-    # Pods for testing
-  end
+  pod 'react-native-attribution-token', :path => '../..'
 
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
