@@ -1,6 +1,6 @@
 {
   "name": "react-native-attribution-token",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native module for fetching attribution token on iOS",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -47,7 +47,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "apple",
+    "attribution",
+    "advertising",
+    "ads",
+    "attributionToken"
   ],
   "repository": {
     "type": "git",
