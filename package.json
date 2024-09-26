@@ -1,7 +1,7 @@
 {
   "name": "react-native-attribution-token",
   "version": "1.0.4",
-  "description": "React Native module for fetching attribution token on iOS",
+  "description": "React Native module for fetching attribution token from AdServices framework on iOS",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -57,14 +57,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/horaczech/react-native-attribution-token.git"
+    "url": "git+https://github.com/pehoracek/react-native-attribution-token.git"
   },
-  "author": "Petr Horacek <petrhoracekdev@gmail.com> (https://github.com/horaczech)",
+  "author": "Petr Horacek <petrhoracekdev@gmail.com> (https://github.com/pehoracek)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/horaczech/react-native-attribution-token/issues"
+    "url": "https://github.com/pehoracek/react-native-attribution-token/issues"
   },
-  "homepage": "https://github.com/horaczech/react-native-attribution-token#readme",
+  "homepage": "https://github.com/pehoracek/react-native-attribution-token#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
