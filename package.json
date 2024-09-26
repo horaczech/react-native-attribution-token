@@ -1,6 +1,6 @@
 {
   "name": "react-native-attribution-token",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native module for fetching attribution token from AdServices framework on iOS",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
